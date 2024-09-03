@@ -1,0 +1,138 @@
+
+BODY
+        {
+        background-color:#8F8F8F;
+        }
+        .text0
+        {
+        color:#808040; font-size: 10px; font-weight: light; font-family: verdana, Arial, sans-serif; text-decoration: none
+        }
+        .text1
+        {
+        color:#FFFFFF; font-size: 10px; font-weight: light; font-family: verdana, Arial, sans-serif; text-decoration: none
+        }
+        .text2
+        {
+        color:#666666; font-size: 14px; font-weight: light; font-family: verdana, Arial, sans-serif; text-decoration: none;
+        }
+        .text4
+        {
+        background-color:#5D5D5D; color:#FFFFFF; font-size: 14px; font-weight: light; font-family: verdana, Arial, sans-serif; text-decoration: none; text-align: center;
+        }
+        .titel
+        {
+        color:#FFFFFF; font-size: 10px; font-weight: bold; font-family: verdana, Arial, sans-serif; text-decoration: none
+        }
+        .text3
+        {
+        color:#FF00FF; font-size: 10px; font-weight: bold; font-family: verdana, Arial, sans-serif; text-decoration: none
+        }
+        #fett
+        {
+        color:#666666; font-size: 10px; font-weight:bold; font-style:normal; font-family: verdana, Arial, sans-serif; text-decoration: none
+        }
+        //.text2a {
+
+        color:#666666; font-size: 10px; font-weight: light; font-family: verdana, Arial, sans-serif; text-decoration: none
+		}
+
+
+		
+		a#link:link, a#link:visited {
+    		color: white;
+    		padding: 10px 15px;
+    		text-align: center;
+   		 text-decoration: none;
+    		display: inline-block;
+		}
+
+		a#link:hover, a#link:active {
+    		color: #00FF33;
+    		padding: 10px 15px;
+    		display: inline-block;
+		}
+
+		.button {
+   		 	background-color: #5D5D5D;
+    		border: none;
+   		 	color: white;
+    		padding: 10px 15px;
+   			text-align: center;
+   			text-decoration: none;
+    		display: inline-block;
+    		font-size: 16px;
+    		transition-duration: 0.7s;
+    		cursor: pointer;
+		}
+
+
+		.buttonwerke {
+		    background-color: white;
+    		color: black;
+
+		}
+
+		.buttonwerke:hover {
+    		background-color: grey;
+    		color: transparent;
+
+		}
+
+		table#tablewerke, td {
+   		 	border: none;
+    		background-color: transparent;
+		}
+
+		table#tablewerke tr:hover, table#tablewerke td:hover {
+    		border: none;
+    		background-color: grey;
+		}         
+
+        table#tablevita td {
+    		vertical-align: top;
+		}
+		
+		table#tablevita tr:nth-child(even) {background-color: #ffffff}
+		
+		html {
+  			height: 100%;
+  			box-sizing: border-box;
+		}
+
+
+		table#tableausstellungen td {
+    		vertical-align: top;
+		}
+		table#tableausstellungen tr:nth-child(even) {background-color: #f2f2f2}
+
+		html {
+  			height: 100%;
+  			box-sizing: border-box;
+		}
+
+		*,
+		*:before,
+		*:after {
+  			box-sizing: inherit;
+		}
+
+/**footer*/
+
+		body {
+ 			position: relative;
+  			margin: 0;
+  			padding-bottom: 6rem;
+  			min-height: 100%;
+  			font-family: "Helvetica Neue", Arial, sans-serif;
+		}
+
+		.footer {
+  			position: absolute;
+  			right: 0;
+  			bottom: 0;
+  			left: 0;
+  			background-color: #5D5D5D;
+  			text-align: center;
+  			display:inline;
+  			color: white;
+		}
