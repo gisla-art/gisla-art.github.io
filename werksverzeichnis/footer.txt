@@ -1,0 +1,19 @@
+            <div class="footer">
+                <table width="879" border="0" cellpadding="0" cellspacing="10" bgcolor="#FFFFFF" align="center" p
+                    class="text4">
+
+                    <tr>
+                        <td><a id="link" href="../Kontakt.html">DEUTSCH</a></td>
+                        <td><strong>KONTAKT</strong></td>
+                        <td><a id="link" href="../Contacten.html">ENGLISH<a></td>
+                    </tr>
+
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&#x2709; gisla.burkhardt@gmx.de</td>
+                        <td>&nbsp;</td>
+                    </tr>
+
+            </div>
+        </div>
+    </div>

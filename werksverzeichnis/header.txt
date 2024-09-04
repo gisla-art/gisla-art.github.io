@@ -1,0 +1,50 @@
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+    <ul id="menu">
+        <br>
+        <p align="center">
+            <a id="link" href="../index.html">VITA</a>
+            <a id="link" href="../werksverzeichnis/index.html">WERKE</a>
+            <a id="link" href="../Ausstellungen.html">AUSSTELLUNGEN</a>
+            <a id="link" href="../Kontakt.html">KONTAKT</a>
+        </p>
+    </ul>
+    <div id="main">
+        <div align="center">
+        <h1>Werksverzeichnis</h1>
+        <p>
+            Bei Interesse bitte mail an <b>gisla.burkhardt@gmx.de</b>
+        </p>
+        <h2>Themen</h2>
+        <ul>
+        <li>
+            <a href="#AAA">Augenblicke und Ann&auml;herungen</a>
+        </li>
+        <li>
+            <a href="#LFG">In Linien und Farben versteckte Geschichten</a>
+        </li>
+        <li>
+            <a href="#MET">Metamorphosen</a>
+        </li>
+        <li>
+            <a href="#ORJ">Orte, Reisen, Jahreszeiten</a>
+        </li>
+        <li>
+            <a href="#WBW">Wachsen, Bl&uuml;hen, Welken</a>
+        </li>
+        <li>
+            <a href="#WDV">Wieder das Vergessen</a>
+        </li>
+        <li>
+            <a href="#WNN">Warum gibt es etwas und etwas nicht</a>
+        </li>
+        <li>
+            <a href="#ZUB">Zauber und Bann</a>
+        </li>
+        <li>
+            <a href="#WWW">Wellen und Wogen</a>
+        </li>
+        <li>
+            <a href="#ZU">Underfoot in New York (manhole covers)</a>
+        </li>
+        </ul>
+    </ol>
