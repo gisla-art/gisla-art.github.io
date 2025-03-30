@@ -10,7 +10,6 @@
     </ul>
     <div id="main">
         <div align="center">
-        <h1>Werksverzeichnis</h1>
         <p>
             Bei Interesse bitte mail an <b>gisla.burkhardt@gmx.de</b>
         </p>
