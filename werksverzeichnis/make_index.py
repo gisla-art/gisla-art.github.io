@@ -17,7 +17,7 @@ def add_euro(x):
     return f"{str(x)} &#8364;"
 
 print(df.shape[0])
-sel = 5
+sel = 4
 if sel == 0:
     df = df[df['Standort'].isin(['Borghees'])]
     name = os.path.join(root,'werksverzeichnis_borghees.html')
@@ -28,16 +28,19 @@ elif sel == 2:
     df = df[df.Standort == 'Atelier']
     name = os.path.join(root,'werksverzeichnis_missing.html')
 elif sel == 3:
-    df_got_it = df[df['Standort'].isin(['Luzie', 'Gisla','Felix'])]
-    df_got_it['Standort'] = ""
+    df = df[df.Standort == 'missing']
+    name = os.path.join(root,'werksverzeichnis_missing.html')
+else:
+    available = ['Luzie', 'Gisla','Felix', 'missing', 'Atelier']
+    df_got_it = df[df['Standort'].isin(available)]
+    #df_got_it['Standort'] = ""
+    df_got_it.assign(Standort='')
     df_got_it['Preis'] = df_got_it['Preis'].map(lambda x: add_euro(x)).values
-    df_not_got_it = df[~df['Standort'].isin(['Luzie', 'Gisla','Felix'])]
-    df_not_got_it['Standort'] = ""
+    df_not_got_it = df[~df['Standort'].isin(available)]
+    df_not_got_it.assign(Standort='')
     df_not_got_it['Preis'] = "verkauft"
     df = pd.concat([df_got_it, df_not_got_it])
     df = df.sort_values('Nummer')
-    name = os.path.join(root,'werksverzeichnis.html')
-else:
     name = os.path.join(root,'index.html')
 
 print(df.shape[0])
