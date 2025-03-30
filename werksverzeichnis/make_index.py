@@ -17,8 +17,11 @@ def add_euro(x):
     return f"{str(x)} &#8364;"
 
 print(df.shape[0])
-sel = 3
-if sel == 1:
+sel = 5
+if sel == 0:
+    df = df[df['Standort'].isin(['Borghees'])]
+    name = os.path.join(root,'werksverzeichnis_borghees.html')
+elif sel == 1:
     df = df[df['Standort'].isin(['Luzie', 'Gisla','Felix'])]
     name = os.path.join(root,'werksverzeichnis.html')
 elif sel == 2:
@@ -35,7 +38,7 @@ elif sel == 3:
     df = df.sort_values('Nummer')
     name = os.path.join(root,'werksverzeichnis.html')
 else:
-    name = os.path.join(root,'werksverzeichnis_alle.html')
+    name = os.path.join(root,'index.html')
 
 print(df.shape[0])
 
@@ -54,7 +57,7 @@ with open(name, 'w') as f:
 
     cols = ['Thema', 'Nummer', 'Format', 'Technik', 'Jahr', 'Standort', 'Preis']
     picsperrow = 2
-    act_theme = df['Thema'][0]
+    act_theme = df['Thema'].iloc[0]
     for i, ind in enumerate(df.index):
         theme = df['Thema'][ind]
         if i%picsperrow == 0:
