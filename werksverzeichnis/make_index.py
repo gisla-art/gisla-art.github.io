@@ -43,6 +43,8 @@ else:
     df = df.sort_values('Nummer')
     name = os.path.join(root,'index.html')
 
+df = df.assign(Standort='')
+
 print(df.shape[0])
 
 with open(name, 'w') as f:
