@@ -31,13 +31,10 @@ elif sel == 3:
     df = df[df.Standort == 'missing']
     name = os.path.join(root,'werksverzeichnis_missing.html')
 else:
-    available = ['Luzie', 'Gisla','Felix', 'missing', 'Atelier']
+    available = ['Luzie', 'Gisla','Felix', 'Atelier', 'Borghees']
     df_got_it = df[df['Standort'].isin(available)]
-    #df_got_it['Standort'] = ""
-    df_got_it.assign(Standort='')
     df_got_it['Preis'] = df_got_it['Preis'].map(lambda x: add_euro(x)).values
     df_not_got_it = df[~df['Standort'].isin(available)]
-    df_not_got_it.assign(Standort='')
     df_not_got_it['Preis'] = "verkauft"
     df = pd.concat([df_got_it, df_not_got_it])
     df = df.sort_values('Nummer')
