@@ -30,6 +30,8 @@ elif sel == 2:
 elif sel == 3:
     df = df[df.Standort == 'missing']
     name = os.path.join(root,'werksverzeichnis_missing.html')
+elif sel == 4:
+    name = os.path.join(root,'werksverzeichnis_standort.html')
 else:
     available = ['Luzie', 'Gisla','Felix', 'Atelier', 'Borghees']
     df_got_it = df[df['Standort'].isin(available)]
@@ -39,8 +41,8 @@ else:
     df = pd.concat([df_got_it, df_not_got_it])
     df = df.sort_values('Nummer')
     name = os.path.join(root,'index.html')
+    df = df.assign(Standort='')
 
-df = df.assign(Standort='')
 
 print(df.shape[0])
 
