@@ -8,7 +8,7 @@ import click
 @click.option("--sel", help="0:borghees, 1:available, \
     2:missing, 3:standort, 4:index", default=4)
 def main(sel: int):
-    root = "werksverzeichnis/"
+    root = "./"
 
     df = pd.read_csv(os.path.join(root,'Gisla_WV.csv'), sep=',')
     df.head(1)
