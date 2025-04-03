@@ -16,6 +16,7 @@ ZU,,ZU_015,"Wayverlyplace Ave of the Americas", 74x74,Frottage,2000,Luzie,
 ZU,,ZU_016,"Howardstr. La Fayette", 107x107,Frottage,2000,Luzie,
 ZU,,ZU_017,"Willowstr. Orangestr. ", 106x106,Frottage,2000,Luzie,
 ZU,,ZU_018,"Columbia Heights Brooklyn", 107x107,Frottage,2000,Luzie,
+ZU,,ZU_066,na,na,na,na,missing,
 ZU,,ZU_019,"19", ,Frottage,2000,Luzie,
 ZU,,ZU_020,"20", ,Frottage,2000,Luzie,
 ZU,,ZU_021,"21", ,Frottage,2000,Luzie,
@@ -81,6 +82,7 @@ AAA,,AAA_014,Leszek Kolakowski,100 x 80 cm,Graphit/Lwd.,2010,Luzie,400
 AAA,,AAA_015,M.,100 x 80 cm,Öl/Lwd.,2006,Luzie,450
 AAA,,AAA_016,J.F.,100 x 80 cm,Öl/Lwd.,2006,Luzie,400
 AAA,,AAA_017,M.R.-R.,100 x 80 cm,Öl/Lwd.,2006,Luzie,400
+AAA,,AAA_018,na,na,na,na,missing,
 LFG,,LFG_001,Welttheater,80 x 60 cm,Öl/Nessel, ?, Bernhard Lensing,
 LFG,,LFG_002,Orpheus auf dem Weg in die Unterwelt,150 x 110 cm,Öl/Eit./Lwd.,1986,Till Burkhardt München,
 LFG,,LFG_003,Tag und Nacht,60 x 80 cm,Öl/Holz,1986,Galerie wiese Rotenburg oder Niklas,
@@ -141,6 +143,18 @@ LFG,,LFG_056,Mond versteckt in Gelb,80 x 75 cm,Mischt./Lwd.,2001,Katja Janson,95
 LFG,,LFG_057,Mond versteckt in Silber,80 x 75 cm,Mischt./Lwd.,2001,Tanja Henningsen,950
 LFG,,LFG_058,Mond verirrt,70 x 80 cm,Öl/Lwd.,2015,Luzie,850
 LFG,,LFG_059,Junge im Tiergarten,115 x 130 cm,Öl/Lwd.,2019,Luzie,850
+LFG,,LFG_075,na,na,na,na,missing,
+LFG,,LFG_072,na,na,na,na,missing,
+LFG,,LFG_068,na,na,na,na,missing,
+LFG,,LFG_062,na,na,na,na,missing,
+LFG,,LFG_074,na,na,na,na,missing,
+LFG,,LFG_060,na,na,na,na,missing,
+LFG,,LFG_069,na,na,na,na,missing,
+LFG,,LFG_071,na,na,na,na,missing,
+LFG,,LFG_073,na,na,na,na,missing,
+LFG,,LFG_064,na,na,na,na,Mechtild,
+LFG,,LFG_061,na,na,na,na,missing,
+LFG,,LFG_067,na,na,na,na,missing,
 LFG,,LFG_101,Novembererde,64 x 45 cm,Öl/Lwd.,2000,Borghees,500
 LFG,,LFG_102,Vor dem Gewitter,40 x 40 cm,Öl/Lwd.,1991,Borghees,300
 LFG,,LFG_103,Zerschundene Landschaft mit Mond,45 x 55 cm,Öl/Lwd.,1997,Borghees,500
@@ -193,7 +207,7 @@ ORJ,,ORJ_022,Frühling im Pinzgau I,100 x 120 cm,Öl/Lwd.,1994,Trüstedt/Richter
 ORJ,,ORJ_023,Frühling im Pinzgau II,100 x 120 cm,Öl/Lwd.,1994,"Reinhardt,  Emmerich",
 ORJ,,ORJ_024,Jahreszeiten,100 x 120 cm,Öl/Lwd.,1994,Trüstedt,
 ORJ,,ORJ_025,Am Wasser blühend,75 x 70 cm,Öl/Lwd.,1995,Sparkasse Emmerich,
-ORJ,,ORJ_026,Fortgeschwemmt (Oderhochwasser),50 x 70 cm,Öl/Lwd.,1996,Luzie,550
+ORJ,,ORJ_026,Fortgeschwemmt (Oderhochwasser),50 x 70 cm,Öl/Lwd.,1996,Borghees,550
 ORJ,,ORJ_027,Sudelstrudel (Oderhochwasser),60 x 80 cm,Öl/Lwd.,1996,Borghees,650
 ORJ,,ORJ_028,Angeschwemmt am Niederrhein,50 x 70 cm,Öl/Lwd.,1997,Ruth,
 ORJ,,ORJ_029,Alles ist im Fluss- Wüste Namibia,130 x 160 cm,Mischt./Lwd.,1994,Luzie,1450
@@ -208,13 +222,13 @@ ORJ,,ORJ_036,Herbstblätter auf der Spree,60 x 75 cm,Eit./Öl/Lwd.,2007,,
 ORJ,,ORJ_037,An der Felsenküste Ios I,200 x 150 cm,Eit./Öl/Lwd.,2008,Atelier,1250
 ORJ,,ORJ_038,An der Felsenküste Ios II,150 x 200 cm,Eit./Öl/Lwd.,2008,Luzie,1250
 ORJ,,ORJ_039,Rheinbrücke (Emmerich am Rhein),120 x 80 cm,Öl/Lwd.,2010/2011,Niklas Lensing,850
-ORJ,,ORJ_040,Ausflug nach Kremmen,75 x 100 cm,Öl/Lwd.,2017,Luzie,750
-ORJ,,ORJ_041,Frühschnee in den Alpen – Tiefes Tal,60 x 80 cm,Öl/Lwd.,2010/2011,Luzie,650
-ORJ,,ORJ_042,Frühschnee in den Alpen – Rosa Gipfel,60 x 80 cm,Öl/Lwd.,2010/2011,Luzie,650
+ORJ,,ORJ_040,Ausflug nach Kremmen,75 x 100 cm,Öl/Lwd.,2017,Borghees,750
+ORJ,,ORJ_041,Frühschnee in den Alpen – Tiefes Tal,60 x 80 cm,Öl/Lwd.,2010/2011,Borghees,650
+ORJ,,ORJ_042,Frühschnee in den Alpen – Rosa Gipfel,60 x 80 cm,Öl/Lwd.,2010/2011,Borghees,650
 ORJ,,ORJ_043,Frühschnee in den Alpen – Beschneite Wipfel,60 x 80 cm,Öl/Lwd.,2010/2011,Borghees,650
 ORJ,,ORJ_044,Grüne Landschaft 1,70 x 85 cm,Öl / Bw.,2009,Atelier,650
 ORJ,,ORJ_045,Grüne Landschaft 2,70 x 85 cm,Öl / Bw.,2009,Dr.Spann  München,
-ORJ,,ORJ_046,Indian summer,65 x 80 cm,Öl/Lwd.,2009,Luzie,750
+ORJ,,ORJ_046,Indian summer,65 x 80 cm,Öl/Lwd.,2009,Borghees,750
 ORJ,,ORJ_047,Winterlandschaft I,55 x 70 cm,Eit./Öl/Lwd.,2010,Borghees,650
 ORJ,,ORJ_048,Spiegelung - Bäume am See,80 x 100 cm,Öl/Lwd.,2010,Luzie,550
 ORJ,,ORJ_049,Rheinarm am Niederrhein,80 x 100 cm,Öl/Lwd.,2010,Luzie,500
@@ -279,7 +293,7 @@ WBW,,WBW_051,na,na,na,na,na,
 WBW,,WBW_052,na,na,na,na,na,
 WBW,,WBW_053,na,na,na,na,na,
 WBW,,WBW_054,na,na,na,na,na,
-WBW,,WBW_055,Blumen,42 x 64 cm,Mischtechnik/Lwd.,2000,Borghees,600
+WBW,,WBW_055,Blumen,42 x 64 cm,Mischtechnik/Lwd.,2000,Borghees,800
 WNN,,WNN_000,Warum gibt es etwas und nicht nichts?,180 x 135 cm,Öl/Lwd.,2017,Luzie,1350
 WNN,,WNN_001,Universum I,80 x 100 cm,Öl/Lwd.,2015/2016,Luzie,750
 WNN,,WNN_002,Universum II,115 x 150 cm,Öl/Bw.,2016,Niklas,950
@@ -339,7 +353,7 @@ WDV,,WDV_L_004,Wider das Vergessen  Liesenstraße  Christliche Friedhöfe 4,85 x
 ZUB,,ZUB_001,Licht fällt durch den Regenwald,215 x 145 cm,Mischt./Lwd.,1988/1989,Verkauft,
 ZUB,,ZUB_002,Zauber und Bann,215 x 145 cm,Mischt./Lwd.,1988 - 1998,Luzie,1650
 ZUB,,ZUB_003,Gebrannte Erde,215 x 145 cm,Mischt./Lwd.,1989/1989,Luzie,1650
-ZUB,,ZUB_004,Gottesanbeterin,200 x 150 cm,Eit./Öl/Lwd.,2002,Luzie,1650
+ZUB,,ZUB_004,Gottesanbeterin,200 x 150 cm,Eit./Öl/Lwd.,2002,Felix,1650
 ZUB,,ZUB_005,Geheime Quelle,80 x 80 cm,Öl/Bw.,2002,,
 ZUB,,ZUB_006,Zerfliessende (Schwimmende) Kontinente,200 x 150 cm,Eit./Öl./Lwd.,2002,Luzie,1650
 ZUB,,ZUB_007,Herbstwind Diptychon,150 x 240 cm,Öl/Lwd.,1986,Luzie,1650
@@ -349,3 +363,40 @@ ZUB,,ZUB_010,Turbulenzen am nächtlichen Himmel,130 x 160 cm,Eit./Öl/Lwd.,2005,
 ZUB,,ZUB_011,Blätterschwirren,160 x 130 cm,Eit./Öl/Lwd.,2003,Atelier,1550
 ZUB,,ZUB_012,Wüstenquelle,100 x 120 cm,Mischt./Lwd.,2000,Luzie,900
 ZUB,,ZUB_013,Karst (Küste Kroatien),130 x 160 cm,Mischt./Lwd.,2000,Luzie,1550
+zub,,zub_(3),na,na,na,na,missing,
+LFG,,LFG_052_Collagen,na,na,na,na,missing,
+AAA,,AAA_019,na,na,na,na,missing,
+WWW,,WWW_030,na,na,na,na,missing,
+AAA,,AAATatiana,na,na,na,na,missing,
+AAA,,AAADSCN0395,na,na,na,na,missing,
+LFG,,LFG_061(1),na,na,na,na,missing,
+WBW,,WBW_011_1,na,na,na,na,missing,
+ORJ,,ORJ_067,na,na,na,na,missing,
+ORJ,,ORJ_072,na,na,na,na,missing,
+ZU_,,ZU_067,na,na,na,na,missing,
+ORJ,,ORJ_062,na,na,na,na,missing,
+ORJ,,ORJ_068,na,na,na,na,missing,
+ORJ,,ORJ_063,na,na,na,na,missing,
+ORJ,,ORJ_069,na,na,na,na,missing,
+ORJ,,ORJ_052,na,na,na,na,missing,
+ORJ,,ORJ_065,na,na,na,na,missing,
+LFG,,LFG_070,na,na,na,na,missing,
+ORJ,,ORJ_064,na,na,na,na,missing,
+ORJ,,ORJ_059,na,na,na,na,missing,
+WBW,,WBW_007,na,na,na,na,missing,
+Zub,,Zub_(2),na,na,na,na,missing,
+ZU,,ZU_044,na,na,na,na,missing,
+ZU,,ZU_049,na,na,na,na,missing,
+WWW,,WWW_019,na,na,na,na,missing,
+LFG,,LFG_063,na,na,na,na,missing,
+ORJ,,ORJ_061,na,na,na,na,missing,
+ORJ,,ORJ_060,na,na,na,na,missing,
+ORJ,,ORJ_070,na,na,na,na,missing,
+LFG,,LFG_066,na,na,na,na,missing,
+ORJ,,ORJ_066,na,na,na,na,missing,
+ORJ,,ORJ_071,na,na,na,na,missing,
+WWW,,WWW_013_1,na,na,na,na,missing,
+LFG,,LFG_065,na,na,na,na,missing,
+WWW,,WWW_017_1,na,na,na,na,missing,
+ZU_,,ZU_065,na,na,na,na,missing,
+ORJ,,ORJ_027_2,na,na,na,na,missing,
