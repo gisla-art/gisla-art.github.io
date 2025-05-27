@@ -109,7 +109,7 @@ LFG,,LFG_022,Für Matti,75 x 80 cm,Öl/Lwd.,1996,Verkauft,
 LFG,,LFG_023,Gelbmond über grüner Landschaft,30 x 40 cm,Öl/Lwd.,1996,Cordula Trüstedt,350
 LFG,,LFG_024,Paradiesgärtlein,50 x 70 cm,Öl/Eit./Lwd.,1996,Borghees,400
 LFG,,LFG_025,"Eitel, Spiel und Traurigkeit",105 x 125 cm,Öl/Lwd.,1992,Luzie,950
-LFG,,LFG_026,Für Luzie,75 x 80 cm,Öl/Lwd.,1994,Borghees,750
+LFG,,LFG_026,Honigtanz,75 x 80 cm,Öl/Lwd.,1994,Borghees,750
 LFG,,LFG_027,Fressen und Gefressen werden,55 x 75 cm,Öl/Nessel,1994,Nanni Burkhardt München,
 LFG,,LFG_028,Klingsors Garten,180 x 120 cm,Öl/Lwd.,1993/1994,Luzie,1450
 LFG,,LFG_029,"Ritter, Tod und Teufel (Apokalypse)",160 x 120 cm,Mischt./Lwd.,1992/1994,Luzie,1250
@@ -261,7 +261,7 @@ WBW,,WBW_019,Baumbild Birke,125 x 95 cm,Mischt./Lwd.,1995,missing,1100
 WBW,,WBW_020,Baumbild Gold,125 x 95 cm,Mischt./Lwd.,1995,missing,1100
 WBW,,WBW_021,Blättergrün I,,,,,
 WBW,,WBW_022,Baumbild mit Rost,125 x 95 cm,Mischt./Lwd.,1995,missing,1100
-WBW,,WBW_023,Baumbild mit Himmel,125 x 95 cm,Mischt./Lwd.,1995,Borghees,
+WBW,,WBW_023,Baumbild mit Himmel,125 x 95 cm,Mischt./Lwd.,1995,Borghees,1250
 WBW,,WBW_024,Apfelblüte im Mai,100 x 120 cm,Öl/Lwd.,1994,Luzie,nicht verkäuflich
 WBW,,WBW_025,Kleines Gräserbild,40 x 60 cm,Öl/Lwd.,,,
 WBW,,WBW_026,Mein Balkon,105 x 105 cm,Öl/Lwd.,2010,Felix Fassbinder,650
@@ -293,7 +293,7 @@ WBW,,WBW_051,na,na,na,na,na,
 WBW,,WBW_052,na,na,na,na,na,
 WBW,,WBW_053,na,na,na,na,na,
 WBW,,WBW_054,na,na,na,na,na,
-WBW,,WBW_055,Blumen,42 x 64 cm,Mischtechnik/Lwd.,2000,Borghees,800
+WBW,,WBW_055,Alles ist im Wandel,42 x 64 cm,Mischtechnik/Lwd.,2000,Borghees,800
 WNN,,WNN_000,Warum gibt es etwas und nicht nichts?,180 x 135 cm,Öl/Lwd.,2017,Luzie,1350
 WNN,,WNN_001,Universum I,80 x 100 cm,Öl/Lwd.,2015/2016,Luzie,750
 WNN,,WNN_002,Universum II,115 x 150 cm,Öl/Bw.,2016,Niklas,950
@@ -321,10 +321,10 @@ WWW,,WWW_009,Am Ufer,135 x 100 cm,Öl/Lwd,2018,Luzie,950
 WWW,,WWW_010,Im giftgrünen Wasser,180 x 70 cm,Öl/Lwd.,2003,Luzie,950
 WWW,,WWW_011,Weichende Wasser,160 x 120 cm,Öl/Lwd.,1997,Emmerich,
 WWW,,WWW_012,Frosches Freude,175 x 75 cm,Mischt./Lwd.,2004,Borghees,950
-WWW,,WWW_013,Meerestief,180 x 70 cm,Öl/Lwd,2001,Borghees,950
+WWW,,WWW_013,Meerestief,180 x 70 cm,Öl/Lwd,2001,Diana,950
 WWW,,WWW_014,Gischt,180 x 70 cm,Eit./Öl/Lwd.,2001,missing,950
-WWW,,WWW_015,Meeresgrund,180 x 70 cm,Öl/Lwd.,2001,Borghees,950
-WWW,,WWW_016,Versunken im Meerestief,180 x 70 cm,Eit./Öl/Lwd.,2001,Borghees,950
+WWW,,WWW_015,Meeresgrund,180 x 70 cm,Öl/Lwd.,2001,Diana,950
+WWW,,WWW_016,Versunken im Meerestief,180 x 70 cm,Eit./Öl/Lwd.,2001,Diana,950
 WWW,,WWW_017,Feuersbrunst am Meeresgrund (Feuerbann - Lunge),180 x 70 cm,Öl/Lwd.,2006,Luzie,950
 WWW,,WWW_018,Lichtbahn (am Meeresgrund) - Lichteinfall,180 x 70 cm,Öl/Lwd.,2005/2006,Mechtild,950
 WWW,,WWW_020,Sanft umspielt,200 x 150 cm,Öl/Eit./Lwd.,2007,Luzie,1450
@@ -356,7 +356,7 @@ ZUB,,ZUB_003,Gebrannte Erde,215 x 145 cm,Mischt./Lwd.,1989/1989,Luzie,1650
 ZUB,,ZUB_004,Gottesanbeterin,200 x 150 cm,Eit./Öl/Lwd.,2002,Felix,1650
 ZUB,,ZUB_005,Geheime Quelle,80 x 80 cm,Öl/Bw.,2002,,
 ZUB,,ZUB_006,Zerfliessende (Schwimmende) Kontinente,200 x 150 cm,Eit./Öl./Lwd.,2002,Luzie,1650
-ZUB,,ZUB_007,Herbstwind Diptychon,150 x 240 cm,Öl/Lwd.,1986,Borghees,1650
+ZUB,,ZUB_007,Herbstwind Diptychon,150 x 240 cm,Öl/Lwd.,1986,Borghees,2250
 ZUB,,ZUB_008,Vor dem Sturm,100 x 120 cm,Mischt./Lwd.,2002,Borghees,950
 ZUB,,ZUB_009,Glutbaum,160 x 130 cm,Mischt./Lwd.,2003,Borghees,1550
 ZUB,,ZUB_010,Turbulenzen am nächtlichen Himmel,130 x 160 cm,Eit./Öl/Lwd.,2005,Luzie,1550
