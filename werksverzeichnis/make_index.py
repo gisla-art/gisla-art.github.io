@@ -55,6 +55,8 @@ def main(sel: int):
         print(f'<meta http-equiv="content-type" content="text/html; charset=utf-8">')
         print(f'<head><title>{title}</title>')
         print("<style>body {font-family: Arial, sans-serif;}</style>")
+        print('<link href="../css/gisource.css" rel="stylesheet" type="text/css">')
+        print('<script language="JavaScript" type="text/JavaScript"></script>')
         print(f'</head>')
         #print(f'<body><h1>{title}</h1>')
         with open(os.path.join(root, 'header.txt'), 'r') as f:
