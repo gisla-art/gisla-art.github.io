@@ -43,7 +43,8 @@ def main(sel: int):
         df_not_got_it['Preis'] = "verkauft"
         df = pd.concat([df_got_it, df_not_got_it])
         df = df.sort_values('Nummer')
-        df.loc[df["Thema"]=="WDV", "Preis"]= "-"        name = os.path.join(root,'index.html')
+        df.loc[df["Thema"]=="WDV", "Preis"]= "-"        
+        name = os.path.join(root,'index.html')
         df = df.assign(Standort='')
 
 
