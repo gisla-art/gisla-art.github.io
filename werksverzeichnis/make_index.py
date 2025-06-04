@@ -8,7 +8,7 @@ import click
 @click.option("--sel", help="0:borghees, 1:available, \
     2:missing, 3:standort, 4:index", default=4)
 def main(sel: int):
-    root = "./werksverzeichnis/"
+    root = "./"
 
     df = pd.read_csv(os.path.join(root,'Gisla_WV.csv'), sep=',')
     df.head(1)
@@ -43,7 +43,7 @@ def main(sel: int):
         df_not_got_it['Preis'] = "verkauft"
         df = pd.concat([df_got_it, df_not_got_it])
         df = df.sort_values('Nummer')
-        df.loc[df["Thema"]=="WDV", "Preis"]= "-"        
+        df.loc[df["Thema"]=="WDV", "Preis"]= "-"
         name = os.path.join(root,'index.html')
         df = df.assign(Standort='')
 
