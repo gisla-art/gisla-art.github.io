@@ -1,0 +1,416 @@
+html {
+  overflow-y: scroll;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+body {
+  background: #FFFFFF;
+  color: black;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 100%;
+  font-family: 'Quicksand', sans-serif;
+  src: url('fonts/Quicksand-Light.otf') format('opentype');
+  font-weight: 300; /*Leichte Font*/
+}
+
+
+/* Schriftart Import */
+@font-face {
+  font-family: 'Goldstone';
+  src: url('../fonts/Goldstone-8O8BJ.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rawkbrush';
+  src: url('../fonts/Rawkbrush-ywLym.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontaniaSwash';
+  src: url('../fonts/FontaniaSwash-KjPp.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Wrapper */
+.wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Social Media Buttons */
+.social-icons {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+.social-icons a {
+  margin-right: -20px;
+  display: inline-block;
+}
+
+.social-icons .icon {
+  width: 100px;
+  height: 100px;
+}
+
+
+
+/* Gisla Burkhardt Überschrift */
+#logo {
+  font-family: 'Goldstone', sans-serif;
+  font-size: 90px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 1px;
+    }
+
+#logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* Menu Container */
+nav.menu {
+  text-align: center;
+  margin-top: -20px;
+  padding: 0;
+}
+
+/* Menu Buttons */
+nav.menu a.button_menu {
+  all: unset;
+  font-family: 'Rawkbrush', sans-serif;
+  color: #000000;
+  background: none;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  padding: 4px 20px;
+  font-size: 1.4em;
+  letter-spacing: 4px;
+  margin-top: 0;
+  margin-bottom: 0;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+}
+
+/* Hover */ 
+nav.menu a.button_menu:hover {
+}
+
+/* Aktiver Menu Button */
+nav.menu a.button_menu.active {
+  position: relative;
+  color: #000000;
+  cursor: default;
+}
+
+nav.menu a.button_menu.active::after {
+  content: '\006D'; 
+  font-family: 'FontaniaSwash';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%) scaleX(0.5); 
+  font-size: 1.2em;
+  line-height: 1;
+  color: #000;
+  pointer-events: none;
+}
+
+
+/* Hauptbox */
+#main {
+  width: 100%;
+  max-width: 1600px;
+  margin: 20px auto 0 auto;
+  padding: 20px;
+}
+
+
+/* Werke Gallerie */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500; /*Schriftart wird dicker*/
+}
+
+.gallery-item {
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 10px;
+  border: none;
+}
+
+.gallery-item span {
+  display: block;
+  font-size: 14px;
+  margin-top: 5px;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* Allgemeine Tabelle Eigenschaften */
+#table {
+  width: 100%;
+  max-width: 770px;
+  margin: 5px auto 0 auto; 
+  padding: 0px;
+}
+
+/* Underfoot Tabelle */
+#table_underfoot {
+  table-layout: fixed;
+  background-color: transparent;
+  width: 75%;
+  margin: 0 auto;
+  border: none;
+  border-collapse: collapse;
+  line-height: 1.7; /* 1.7-facher Zeilenabstand */
+}
+
+#title_underfoot {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+#table_underfoot td {
+  text-align: left;
+  vertical-align: top;
+}
+
+#table_underfoot p {
+  margin: 0;
+  text-align: justify;
+}
+
+
+.underfoot_bilder {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.underfoot_bilder img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  display: block;
+  /* No border */
+}
+
+.underfoot_dateien {
+  display: flex;
+  justify-content: center; /* gleichmäßig verteilen */
+  gap: 150px; /* Abstand zwischen den Bildern */	
+  max-width: 900px;
+  margin: 0 auto; 
+}
+
+.underfoot_dateien a img {
+  width: 300px;
+  height: auto;
+}
+
+.underfoot_text p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+
+/* Ausstellungen Tabelle */
+#table_ausstellungen {
+  table-layout: fixed;
+  display: block;
+  border: none;
+  background-color: transparent;
+  width: max-content;
+  padding: 20px;
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+#table_ausstellungen td, 
+#table_ausstellungen th {
+  padding: 5px; 
+  padding-right: 50px; /*Abstand zwsichen den Spalten in der Ausstellungstabelle*/
+  line-height: 1.7; /* 1.5-facher Zeilenabstand */
+}
+
+/* Linke Spalte breiter machen */
+#table_ausstellungen td:first-child,
+#table_ausstellungen th:first-child {
+  width: 80px;
+  min-width: 80px;
+  max-width: 80px;
+
+}
+
+/* Rechte Spalte breiter machen */
+#table_ausstellungen td:last-child,
+#table_ausstellungen th:last-child {
+  width: 2000px; /* Breitere rechte Spalte */
+}
+
+
+/* Kontakt Eigenschaften */
+#contact {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto 0 auto;
+  padding: 20px;
+}
+
+
+/*Impressum Tabelle*/
+#table_impressum {
+  width: 100%;
+  max-width: 770px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+#table_impressum td {
+  vertical-align: top;
+  padding: 10px 15px;
+  text-align: justify;
+}
+
+#table_impressum h1,
+#table_impressum h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color: #000;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+#table_impressum ul {
+  padding-left: 20px;
+  margin-top: 0.5em;
+}
+
+#table_impressum a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+#table_impressum a:hover {
+  text-decoration: underline;
+}
+
+
+/* Up Top Button */
+#UpTop {
+  position: fixed;
+  bottom: 6px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: none; 
+  z-index: 9999; /* HOHER z-index, damit er über allem liegt */
+}
+
+#UpTop.show {   /* Beispiel-Klasse, wenn der Button sichtbar wird */
+  display: block;
+}
+
+#UpTop img {
+  width: 50px; 
+  height: 50px;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  z-index: 1; 
+  width: 100%;
+  background-color: #efefef;
+  padding: 30px 80px 30px 10px; /* rechtes padding für Button */
+  font-size: 14px;          
+  color: #333;
+  font-family: 'Quicksand', sans-serif;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.footer .links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.footer .links a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer .links a:hover {
+  text-decoration: underline;
+}
+
+.footer .copyright {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  z-index: 1; 
+}
