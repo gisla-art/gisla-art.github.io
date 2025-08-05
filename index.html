@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="de">
+<head>
+<title>Gisla Burkhardt</title>
+ <link href="css/design.css" rel="stylesheet" type="text/css">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+			  
+		<div class="social-icons">
+  			<a href="https://www.facebook.com/625258117341585" target="_blank">
+    			<img src="images/social/facebook_logo.png" alt="Facebook" class="icon">
+  			</a>
+			
+  			<a href="https://www.instagram.com/gisla.art" target="_blank">
+    			<img src="images/social/instagram_logo.png" alt="Instagram" class="icon">
+  			</a>
+		</div>
+					    
+  		<div id="logo">
+     		<a href="index.html" title="Gisla Burkhardt">Gisla Burkhardt</a>
+ 		</div>
+	 
+  		<nav class="menu">
+        	<a href="index.html" class="button_menu active">VITA</a>
+        	<a href="werke.html" class="button_menu">WERKE</a>
+        	<a href="underfoot.html" class="button_menu">UNDERFOOT</a>
+        	<a href="ausstellungen.html" class="button_menu">AUSSTELLUNGEN</a>
+        	<a href="kontakt.html" class="button_menu">KONTAKT</a>
+	  	</nav>
+
+	   <!-- Up Top Button -->
+  		<button id="UpTop">
+    		<img src="images/up_top.png" alt="Back to Top">
+  		</button>
+			  
+  <div id="main">
+
+	  <table  border="0" cellpadding="10" cellspacing="0" align="center">
+		  <tr>
+			 <td>
+			 <img src="images/Gisla.jpg" alt="" border="0" width="472" height="590">
+			 </td>
+
+			 <td class="text" valign="top" height="500" width="400">
+
+			 <p style="line-height: 150%">
+
+			 <strong>08.04.1938</strong><br>geboren in Emmerich am Niederrhein<br><br>
+			 <b>1958 - 1960</b><br>Staatliche Kunstakademie, Stuttgart<br><br>
+			 <b>1961 - 1965</b><br>Hochschule f&uuml;r Bildende K&uuml;nste, Berlin<br><br>
+			 <b>1965 - 1972</b><br>freiberufliche Grafikerin<br><br>
+			 <b>1972 - 1982</b><br>soziales Engagement in Jugendarbeit und Gef&auml;ngnissen, 8 Jahre Arbeit als Kunsterzieherin in Berliner Schulen<br><br>
+			 <b>seit 1982</b><br>freiberufliche Malerin<br><br>
+			 <b>seit 1999</b><br>j&auml;hrlich mehrmonatige Arbeitsaufenthalte in New York<br><br>
+			 <b>04.07.2024</b><br>gestorben in Berlin</p>
+			 </td>
+		  </tr>
+	  </table>
+	  <br><br>
+ 	  <p class="text" style="text-align: center;">Falls Sie Interesse an einem der unverkauften Bilder haben, können Sie sich gerne an die Erben wenden.</p>
+  </div>
+</div>
+	
+		<!-- Footer -->
+		<div class="footer">
+  			<nav class="links" aria-label="Wichtige Links">
+    			<a href="impressum.html">Impressum</a>
+    			<a href="impressum.html#Datenschutzerklärung">Datenschutz</a>
+    			<a href="kontakt.html">Kontakt</a>
+    			<a href="#top">↑ Nach oben</a>
+  			</nav>
+			
+		<p class="copyright">
+    		&#9400; 2021-<span id="year"></span> Felix Burkhardt. Alle Rechte vorbehalten.
+  		</p>
+		</div>
+	
+	
+	
+	<script>
+		//Aktuelles Jahr beim Copyright
+		document.getElementById('year').textContent = new Date().getFullYear();
+		
+		// Up Top Button
+		var upTopBtn = document.getElementById("UpTop");
+
+		// Wenn der Benutzer 100px vom oberen Rand des Dokuments nach unten scrollt, zeigen Sie die Schaltfläche
+		window.onscroll = function() {
+  			if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    			upTopBtn.style.display = "block";
+  			} else {
+    			upTopBtn.style.display = "none";
+  			}
+		};
+
+		// Wenn der Benutzer auf die Schaltfläche klickt, blättert es an den Anfang des Dokuments
+		upTopBtn.onclick = function() {
+  			window.scrollTo({
+    			top: 0,
+    			behavior: "smooth" // Für einen reibungslosen Bildlauf
+  			});
+		};	
+	</script>
+</body>
+</html>
