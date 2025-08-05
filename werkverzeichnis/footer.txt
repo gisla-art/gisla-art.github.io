@@ -1,0 +1,37 @@
+<div class="footer"">
+  <nav class="links" aria-label="Wichtige Links">
+    <a href="../impressum.html">Impressum</a>
+    <a href="../impressum.html#Datenschutzerklärung">Datenschutz</a>
+    <a href="../kontakt.html">Kontakt</a>
+    <a href="#top">↑ Nach oben</a>
+  </nav>
+
+  <p class="copyright">
+    &#9400; 2021-<span id="year"></span> Gisla Burkhardt. Alle Rechte vorbehalten.
+  </p>
+</div>
+
+<script>
+  // Aktuelles Jahr beim Copyright
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Up Top Button
+  var upTopBtn = document.getElementById("UpTop");
+
+  // Wenn der Benutzer 100px vom oberen Rand des Dokuments nach unten scrollt, zeigen Sie die Schaltfläche
+  window.onscroll = function() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      upTopBtn.style.display = "block";
+    } else {
+      upTopBtn.style.display = "none";
+    }
+  };
+
+  // Wenn der Benutzer auf die Schaltfläche klickt, blättert es an den Anfang des Dokuments
+  upTopBtn.onclick = function() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth" // Für einen reibungslosen Bildlauf
+    });
+  };
+</script>
