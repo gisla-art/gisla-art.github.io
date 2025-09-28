@@ -151,6 +151,28 @@ nav.menu a.button_menu.active::after {
 }
 
 
+/* Werke Text */
+.werke-text {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.werke-text p {
+  margin-bottom: 1em;
+}
+
+.werke-text .headline {
+  font-size: 2em;
+  font-family: 'Rawkbrush', serif;
+  text-align: center;
+  margin-bottom: 0.2em;
+  margin-top: 0;
+}
+
 /* Werke Gallerie */
 .gallery {
   display: grid;
@@ -305,6 +327,7 @@ a {
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 
 
@@ -398,6 +421,13 @@ a {
   padding: 20px;
 }
 
+#g-recaptcha-response {
+display: block !important;
+position: absolute;
+margin: -50px 0 0 0 !important;
+z-index: -999999;
+opacity: 0;
+}
 
 /*Impressum Tabelle*/
 #table_impressum {
@@ -442,6 +472,22 @@ a {
 #table_impressum a:hover {
   text-decoration: underline;
 }
+
+
+/* Kontakt Formular Textarea */
+#comment {
+  width: 100%;          
+  max-width: 350px;     
+  height: 200px;        
+  resize: none;        
+  padding: 10px;        
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  box-sizing: border-box; 
+}
+
+
 
 
 /* Up Top Button */
@@ -526,9 +572,9 @@ a {
   }
 
   .tab-content {
-    height: auto !important;      /* allow natural height */
-    max-height: none !important;  /* remove any max-height */
-    overflow: visible !important; /* no inner scrolling */
+    height: auto !important;      
+    max-height: none !important;  
+    overflow: visible !important; 
   }
 	
   table {
@@ -543,9 +589,9 @@ a {
   td {
     display: block !important;
     width: 100% !important;
-    height: auto !important;       /* remove fixed height */
-    overflow: visible !important;  /* show full content */
-    padding-bottom: 20px;          /* spacing between image and text */
+    height: auto !important;       
+    overflow: visible !important;  
+    padding-bottom: 20px;          
     box-sizing: border-box;
   }
 	
@@ -583,7 +629,7 @@ a {
   }
 
   .grid_wv {
-    grid-template-columns: 1fr;  /* stack items vertically */
+    grid-template-columns: 1fr;  
   }
 	
   .gallery {
@@ -676,9 +722,8 @@ a {
   }	
 	
 	
-/* Optional: Tablet-specific tweaks for screens between 769px and 1024px */
+/* Tablet View*/
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* For example, increase grid columns for tablets */
   .gallery {
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
@@ -717,6 +762,4 @@ a {
   transform: none;
   white-space: normal;
 }
-	
 }
-
