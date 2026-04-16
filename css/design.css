@@ -17,32 +17,8 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 100%;
-  font-family: 'Quicksand', sans-serif;
-  src: url('fonts/Quicksand-Light.otf') format('opentype');
+  font-family: 'Arial', sans-serif;
   font-weight: 300; /*Leichte Font*/
-}
-
-
-/* Schriftart Import */
-@font-face {
-  font-family: 'Goldstone';
-  src: url('../fonts/Goldstone-8O8BJ.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Rawkbrush';
-  src: url('../fonts/Rawkbrush-ywLym.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'FontaniaSwash';
-  src: url('../fonts/FontaniaSwash-KjPp.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
 }
 
 
@@ -76,12 +52,12 @@ body {
 
 /* Gisla Burkhardt Überschrift */
 #logo {
-  font-family: 'Goldstone', sans-serif;
+  font-family: 'Arial', sans-serif;
   font-size: 90px;
   color: #000000;
   text-align: center;
   margin-bottom: 0;
-  padding-bottom: 1px;
+  padding-bottom: 10px;
     }
 
 #logo a {
@@ -100,7 +76,7 @@ nav.menu {
 /* Menu Buttons */
 nav.menu a.button_menu {
   all: unset;
-  font-family: 'Rawkbrush', sans-serif;
+  font-family: 'Arial', sans-serif;
   color: #000000;
   background: none;
   border: none;
@@ -130,7 +106,7 @@ nav.menu a.button_menu.active {
 
 nav.menu a.button_menu.active::after {
   content: '\006D'; 
-  font-family: 'FontaniaSwash';
+  font-family: 'Arial', sans-serif;
   position: absolute;
   bottom: -10px;
   left: 50%;
@@ -155,7 +131,7 @@ nav.menu a.button_menu.active::after {
 .werke-text {
   max-width: 900px;
   margin: 0 auto;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Arial', sans-serif;
   font-size: 16px;
   line-height: 1.7;
   text-align: justify;
@@ -167,7 +143,7 @@ nav.menu a.button_menu.active::after {
 
 .werke-text .headline {
   font-size: 2em;
-  font-family: 'Rawkbrush', serif;
+  font-family: 'Arial', sans-serif;
   text-align: center;
   margin-bottom: 0.2em;
   margin-top: 0;
@@ -180,7 +156,7 @@ nav.menu a.button_menu.active::after {
   gap: 40px;
   max-width: 900px;
   margin: 0 auto;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Arial', sans-serif;
   font-weight: 500; /*Schriftart wird dicker*/
 }
 
@@ -279,7 +255,7 @@ a {
 }
 
 .theme_section h2 {
-    font-family: 'Rawkbrush', sans-serif;
+    font-family: 'Arial', sans-serif;
     letter-spacing: 4px;
     font-size: 2rem;
     font-weight: normal;
@@ -323,7 +299,7 @@ a {
 
 #title_underfoot {
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Arial', sans-serif;
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -439,7 +415,7 @@ opacity: 0;
   margin-right: auto;
   border-collapse: collapse;
   padding: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Arial', sans-serif;
   font-weight: 300;
   line-height: 1.6;
 }
@@ -452,7 +428,7 @@ opacity: 0;
 
 #table_impressum h1,
 #table_impressum h2 {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Arial', sans-serif;
   font-weight: bold;
   color: #000;
   margin-top: 1em;
@@ -481,7 +457,7 @@ opacity: 0;
   height: 200px;        
   resize: none;        
   padding: 10px;        
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Arial', sans-serif;
   font-size: 14px;
   line-height: 1.5;
   box-sizing: border-box; 
@@ -520,7 +496,7 @@ opacity: 0;
   padding: 30px 80px 30px 10px; /* rechtes padding für Button */
   font-size: 14px;          
   color: #333;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Arial', sans-serif;
   box-sizing: border-box;
 
   display: flex;
@@ -733,9 +709,6 @@ opacity: 0;
     font-size: 16px;
   }
 }	
-	
-	
-	
 	
 	
   #UpTop {
