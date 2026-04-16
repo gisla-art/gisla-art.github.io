@@ -40,6 +40,11 @@
 
  		<div id="main">
   		<br>
+			<div style="text-align:center; margin-bottom:1em;">
+				<button id="filterAvailableBtn" onclick="toggleAvailableFilter()" style="padding:0.5em 1.2em; font-family:Arial,sans-serif; font-size:1em; cursor:pointer; border:1px solid #888; background:#fff; border-radius:4px;">
+					filter available
+				</button>
+			</div>
 			<div class="gallery">
   				<div class="gallery-item">
     				<a href="werkverzeichnis/werkverzeichnis.html#AAA" rel="noopener noreferrer">
@@ -144,7 +149,24 @@
     			top: 0,
     			behavior: "smooth" // Für einen reibungslosen Bildlauf
   			});
-		};	
+		};
+
+		// Filter available toggle
+		var filterActive = false;
+		function toggleAvailableFilter() {
+			filterActive = !filterActive;
+			var btn = document.getElementById('filterAvailableBtn');
+			var links = document.querySelectorAll('.gallery-item a');
+			links.forEach(function(link) {
+				if (filterActive) {
+					link.href = link.href.replace('werkverzeichnis.html', 'werkverzeichnis_available.html');
+				} else {
+					link.href = link.href.replace('werkverzeichnis_available.html', 'werkverzeichnis.html');
+				}
+			});
+			btn.style.background = filterActive ? '#ddd' : '#fff';
+			btn.style.fontWeight = filterActive ? 'bold' : 'normal';
+		}
 	</script>
 	</div>
 </body>
